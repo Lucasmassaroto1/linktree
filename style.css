@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    width: 96vw;
+    height: 90vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,35,255,1) 35%, rgba(0,138,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  #conteudo{
+    font-family: 'Microsoft New Tai Lue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    display: absolute;
+  }
+  
+  img {
+    margin: 0 auto;
+    display: block;
+    height:  auto;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .container {
+      width: 900px;
+      max-width: 900px;
+      margin: 0 auto;
+  }
+  
+  /* Header */
+  
+  .prof-pic {
+    border-radius: 50%;
+    width: 90px;
+  }
+  
+  .user-name {
+    text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  
+  .user-name a {
+    color: #bbb;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Karla', Helvetica, sans-serif;
+  }
+  
+  .user-name a:hover {
+    color: #000;
+  }
+  
+  /* Links */
+  
+  .link {
+      display: block;
+      background-color: #111111;
+      color: #fff;
+      text-align: center;
+      font-size: 1rem;
+      font-family: 'Karla', Helvetica, sans-serif;
+      font-weight: 600;
+      padding: 13px 0 13px 0;
+      margin: 12px 0 11px 0;
+      border: 2px solid #141414;
+      border-radius: 69px;
+  }
+  
+  .link:hover {
+      color: #000000;
+      background-color: #fff;
+      letter-spacing: 1.5px;
+    }
+   .link{transition: 0.4s;}
+  footer img {
+    width: 150px;
+    padding-top: 40px;
+  }
+  
+  ol, ul {
+    list-style: none;
+    padding: 0;
+  }
+  
